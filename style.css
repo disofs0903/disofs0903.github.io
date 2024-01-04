@@ -1,0 +1,290 @@
+@font-face {
+    font-family: study-alone;
+    src: url(./StudyAlone.otf);
+}
+
+@font-face {
+    font-family: browood;
+    src: url(./Browood-Regular.ttf);
+}
+
+@font-face {
+    font-family: typo;
+    src: url(./TypoSlabIrregularshadowed_demo.otf);
+}
+
+@font-face {
+    font-family: typo1;
+    src: url(./TypoSlabIrregularDemo.otf);
+}
+
+@font-face {
+    font-family: typoregular;
+    src: url(./Typo_Round_Regular_Demo.otf);
+}
+
+@font-face {
+    font-family: rubik;
+    src: url(./RubikDoodleShadow-Regular.ttf);
+}
+
+@font-face {
+  font-family: dosis;
+  src: url(./Dosis-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: all;
+  src: url(./Allrightsreserved.ttf);
+}
+
+@font-face {
+  font-family: rubikRegular;
+  src: url(./RubikGlitch-Regular.ttf);
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: dosis;
+  }
+
+  .centered-paragraph {
+    text-align: center;
+    width: 60%;
+  }
+  
+  header {
+    background-color: #5c619c;
+    font-family: all;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    
+  }
+
+  
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chart {
+    width: 100%;
+    height: 500px;
+  }
+  
+  .labels {
+    text-anchor: middle;
+    font-size: 15px;
+  }
+  
+  .data {
+    stroke: white;
+    stroke-width: 1px;
+  }
+  
+  .text {
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    main {
+      flex-direction: column-reverse;
+    }
+  
+    .chart {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+
+#teste {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 50px;
+  }
+  
+#teste p {
+    text-align: center;
+    font-weight: bold;
+  }
+
+.image-container {
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text-container {
+  display: flex;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.text1-container {
+  display: flex;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+}
+
+.text1-container p{
+  width: 70%;
+  font-size: 20px;
+}
+
+.text-container p{
+    width: 70%;
+    font-size: 20px;
+}
+
+.image-with-text img {
+    width: 90%; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantenha a proporção original da imagem */
+    margin-bottom: 5px; /* Espaço entre a imagem e o texto */
+}
+
+.image-with-text p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.aboutcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.about1container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about2container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutcolumn {
+    width: 50%; /* Adjust the width as needed */
+}
+
+.about2column {
+  width: 100%; /* Adjust the width as needed */
+}
+
+.about2column img {
+  width: 10%;
+  height: auto;
+  display: block;
+  margin-bottom: 50px; /* Adjust spacing between image and text */
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.aboutcolumn p{
+  font-size: 20px;
+}
+
+.aboutcolumn img {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin-bottom: 50px; /* Adjust spacing between image and text */
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about1column {
+  width: 50%; /* Adjust the width as needed */
+}
+
+.about1column p{
+font-size: 20px;
+}
+
+.about1column img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title h1 {
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  font-family: all;
+  margin-top: 100px;
+}
+
+
+
+.perguntaTitulo h1 {
+  font-size: 50px;
+  font-family: rubikRegular;
+  font-weight: bold;
+  text-align: center;
+  font-family: all;
+  margin-top: 100px;
+}
+
+.metTitulo h1 {
+  font-size: 50px;
+  font-family: dosis;
+  font-weight: bold;
+  text-align: center;
+  font-family: all;
+  margin-top: 100px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  margin-top: 100px
+}
+
+.top1-left {
+  position: absolute;
+  top: 30px;
+  left: 16px;
+  margin-top: 100px
+}
+
+.containerFooter {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
